@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 var textVariable = ""
 
                 for(i in users!!){
-                    textVariable += "User: "+i.name+" / Password: "+i.password+"\n"
+                    textVariable += "User: "+i.name+" / Phrase: "+i.phrase+"\n"
                 }
 
                 textView.text = textVariable
